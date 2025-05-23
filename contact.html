@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
     <title>The Flavor Hub</title>
+    <link rel="shortcut icon" href="Images/favi.ico" type="image/x-icon">
+    <style>
+        a.link:hover{
+            color: aliceblue;
+            background-color: #e85b50;
+        }
+        a.link:link{
+            color: blue;
+            padding: 20px 217px;
+            border-radius: 5px;
+        }
+        a.link:active{color: red;}
+        body{
+            border: 1px solid rgb(red, green, blue);
+            background: -webkit-linear-gradient(#FAF6E9,#DDEB9D,#A0C878);
+        } 
+        body{
+            border: 1px solid rgb(red, green, blue);
+            background: -webkit-linear-gradient(#FAF6E9,#DDEB9D,#A0C878);
+        }
+        .prakat1{
+        animation-name: fadein;
+        animation-duration: 2s;
+    }
+    @keyframes fadein{
+        0% {opacity: 0;}
+        100%{opacity: 1;}
+    }
+    .prakat2{
+        animation-name: fadein;
+        animation-duration: 4s;
+    }
+    @keyframes fadein{
+        0% {opacity: 0;}
+        100%{opacity: 1;}
+    }
+    .prakat3{
+        animation-name: fadein;
+        animation-duration: 5s;
+    }
+    @keyframes fadein{
+        0% {opacity: 0;}
+        100%{opacity: 1;}
+    }
+    </style>
 </head>
-<body bgcolor="A1D6B2">
-    <table border="0" bgcolor="F2E8C6">
+<body>
+    <table border="0" >
         <tr>
             <th colspan="2">
-                <img src="Images/logo.png" sizes="90%" width="90%" height="90%">
+                <a href="index.html"><img src="Images/logo.png" sizes="90%" width="90%" height="90%"></a>
             </th>
             <th width="80%">
                 <h1 align="center">The Flavor Hub</h1>
@@ -15,19 +60,20 @@
             <th><blockquote><blockquote></blockquote></blockquote></th>
         </tr>
     </table>
-    <table border="0" width="100%" bgcolor="DAD4B5">
+    <table border="0" width="100%">
         <tr colspan="3">
             <th>
-                <h3><a href="index.html">Home</a></h3>
+                <h3><a class="link" href="index.html">Home</a></h3>
             </th>
             <th>
-                <h3><a href="aboutus.html">About Us</a></h3>
+                <h3><a class="link" href="aboutus.html">About Us</a></h3>
             </th>
             <th>
-                <h3><a href="contact.html">Contact</a></h3>
+                <h3><a class="link" href="contact.html">Contact</a></h3>
             </th>
         </tr>
     </table>
+    <div class="prakat2">
     <table bgcolor="CEDF9F">
         <tr>
             <font size="5">
@@ -40,9 +86,10 @@
             </font>
         </tr>
     </table>
+    </div>
     <table width="100%">
         <tr>
-            <th colspan="2" bgcolor="#A3D1C6"> <h2>&copy;The Flavor Hub</h2></th>
+            <th colspan="2" bgcolor="#A3D1C6">&copy;The Flavor Hub</th>
         </tr>
     </table>
 </body>
